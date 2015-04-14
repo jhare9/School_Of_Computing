@@ -33,7 +33,7 @@ public class simple_web_view extends Fragment{
         webview = (WebView) inflater.inflate(R.layout.simple_web_view,container,false);
         webview.loadDataWithBaseURL("file:///android_res/drawable/",getArguments().getString("html"), "text/html", "utf-8", null);
         webview.getSettings().setBuiltInZoomControls(true);
-        webview.setInitialScale(120);
+        webview.setInitialScale(100);
         webview.setBackgroundColor(Color.BLACK);
         webview.getSettings().setNeedInitialFocus(true);
 
