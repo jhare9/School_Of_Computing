@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#000">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="500dp"
+        android:layout_height="300dp"
+        android:layout_margin="15dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/linearLayout3">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Current Courses:"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textStyle="bold"
+            android:id="@+id/CurrentCourseTitle"
+            android:textColor="@color/usm_gold"
+            android:layout_gravity="left"
+            android:textSize="40sp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/scrollview1" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:textSize="30sp"
+                android:layout_margin="10dp"
+                android:layout_gravity="left"
+                android:id="@+id/CurrentCourseInfo" />
+
+
+        </ScrollView>
+
+
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="15dp"
+        android:id="@+id/instructorsPic"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="400dp"
+        android:layout_margin="15dp"
+        android:layout_below="@+id/instructorsPic"
+        android:layout_alignRight="@+id/instructorsPic"
+        android:layout_alignEnd="@+id/instructorsPic"
+        android:id="@+id/linearLayout4">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_margin="10dp"
+            android:textColor="@color/usm_gold"
+            android:textStyle="bold"
+            android:layout_gravity="left"
+            android:text="Research Inerests:"
+            android:id="@+id/researchIntrestTitle"
+            android:textSize="40sp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/scrollView2" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:textSize="30sp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/researchIntrestInfo" />
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/linearLayout4"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_margin="10dp"
+            android:textStyle="bold"
+            android:layout_gravity="left"
+            android:textColor="@color/usm_gold"
+            android:text="Recent Publications:"
+            android:id="@+id/recentPublicationsTitle"
+            android:textSize="40sp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/scrollView3" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_gravity="left"
+                android:textSize="30sp"
+                android:textColor="#fff"
+                android:id="@+id/recentPublicationsInfo" />
+
+        </ScrollView>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

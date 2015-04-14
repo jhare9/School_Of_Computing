@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#000">
+
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Blah blah blah blah blah blah blah blah blah"
+        android:id="@+id/about_title"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="@color/usm_gold"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="350dp"
+        android:id="@+id/AboutlistView"
+        android:background="#000"
+        android:layout_centerVertical="true"
+        android:divider="#fff"
+        android:dividerHeight="1dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="blah blah blah blah blah blah blah blah"
+        android:id="@+id/about_footer"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginBottom="30dp"
+        android:textColor="@color/usm_gold"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/about_title"
+        android:layout_alignStart="@+id/about_title" />
+
+
+</RelativeLayout>
