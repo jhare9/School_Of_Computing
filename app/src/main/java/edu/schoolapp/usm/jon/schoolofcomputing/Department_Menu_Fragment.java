@@ -102,11 +102,7 @@ public class Department_Menu_Fragment extends Fragment {
                                 break;
                             case 8:
                                 //facilities
-                                swv = new simple_web_view();
-                                bun.putString("html","<img src='labs.jpg' height='"+MainActivity.height+" width='"+MainActivity.width+"'/>");
-                                bun.putString("department name","Facilities");
-                                swv.setArguments(bun);
-                                getFragmentManager().beginTransaction().replace(R.id.container,swv).addToBackStack("facilities").commit();
+                                getFragmentManager().beginTransaction().replace(R.id.container,new Facilities_Fragment()).addToBackStack("facilities").commit();
                                 break;
 
                         }
