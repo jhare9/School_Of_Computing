@@ -1,0 +1,5 @@
+CSC 101 Computer Science I
+EET 478 Digital Control Sys
+CET 478 Digital Control Sys
+ITC 441 Firewalls And Vpn
+ITC 442 Infosec IDS

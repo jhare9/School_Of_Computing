@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">School Of Computing</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Back</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string-array name="csc_teachers">
+        <item>Dia Ali</item>
+        <item >Bikramjit Banerjee</item>
+        <item>Glenn Bond</item>
+        <item>Kuo Chen</item>
+        <item >Wonryull Koh</item>
+        <item >Beddhu Murali</item>
+        <item>Anton Netchaev</item>
+        <item>Jonathan Sun</item>
+        <item >Andrew H. Sung</item>
+        <item >Nan Wang</item>
+        <item>Zheng Wang</item>
+        <item>Kebin Xu</item>
+        <item>Chaoyang (Joe) Zhang</item>
+        <item >Zhaoxian Zhou</item>
+    </string-array>
+
+    <color name="usm_gold"> #FFD046</color>
+    <string name="title_activity_splash_activity">splash_activity</string>
+
+    <string name="hello_world">Hello world!</string>
+
+</resources>

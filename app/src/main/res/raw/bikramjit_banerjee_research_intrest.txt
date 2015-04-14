@@ -1,0 +1,4 @@
+Distributed Artificial Intelligence
+Multi-agent Systems
+Machine Learning
+Applications of AI and Machine Learning to Games, Simulations and Multi-robotics.

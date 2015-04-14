@@ -1,0 +1,3 @@
+K. Xu, Z. Wang, K. Leung, M Wong, and Y Ke, "A new nonlinear multiregression model based on the Wang integral: An application of an adaptive genetic algorithm in data mining", submitted to Fuzzy Set and Systems.
+Z. Wang, K. Xu, P. Heng and K. Leung, "Indeterminate integrals and a generic algorithm for solving the inverse problem", Fuzzy Set and Systems Vol. 138, No.3, pp.485-495 (2003)
+K. Xu, Z. Wang, P. Heng and K. Leung, "Classification by nonlinear integral projection", Special Issue on Data Mining and Knowledge Discovery of IEEE Trans. on Fuzzy System, Vol. 11, No.2, pp187-201 (2003)

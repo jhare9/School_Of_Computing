@@ -1,0 +1,6 @@
+Computer Vision and Image Processing
+Machine Learning in Image
+Video Processing
+Speech Recognition
+Robotics
+Mobile and Web-based Loosely Coupled Software Systems

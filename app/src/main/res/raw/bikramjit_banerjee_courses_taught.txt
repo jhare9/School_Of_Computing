@@ -1,0 +1,3 @@
+CSC 412/512 Intro to Artificial Intelligence
+CSC 638 Adv Computer Algor
+CSC 738 Advanced Algorithms

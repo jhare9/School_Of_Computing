@@ -1,0 +1,3 @@
+W. Koh and K.T. Blackwell, "Stochastic simulators", Springer Encyclopedia of Computational Neuroscience, 196-2:1-10, 2014
+K.T. Blackwell, L.J. Wallace, B. Kim, R.F. Oliveira, W. Koh, "Modeling spatial aspects of intracellular dopamine signalling", Methods in Molecular Biology, 964:61-75, 2013
+W. Koh and K.T. Blackwell, "Improved spatial direct method with gradient-based diffusion to retain full diffusive fluctuations", The Journal of Chemical Physics, 137(15):154111, 2012

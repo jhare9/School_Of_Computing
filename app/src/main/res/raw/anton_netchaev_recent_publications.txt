@@ -1,0 +1,3 @@
+“Preserving objects in Markov Random Fields region growing image segmentation” Pattern Anal. Appl. 15(2): 155-161 (2012)
+“Fusion of Edge Information in Markov Random Fields Region Growing Image Segmentation” ICIAR (1) 2010: 96-10
+“Preparation and characterization of POSS containing titania-thiol-ene composite photocatalytic coatings, emphasizing the hydrophobic-hydrophilic transition," Jefferson, L.U.; Netchaev, A.D.; Jefcoat, J.A.; Windham, A.D.; McFarland, F.M.; Guo, S.; Buchanan, R.K.; Buchanan, J.P., ACS Applied Materials and Interfaces, in review

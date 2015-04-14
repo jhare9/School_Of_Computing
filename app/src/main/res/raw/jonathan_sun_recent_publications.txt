@@ -1,0 +1,3 @@
+Yan Zhang, Jonathan Z. Sun, and Jingliang Peng. A Practical Multi-operator Method for Content-Aware Image Retargeting. Computer Modeling and New Technologies, Vol. 17, No. 4, pages 244-250, 2013.
+ Hui Zhao, Jonathan Z. Sun, Fengying Wang, and Lei Zhao. A Finite Equivalence of Multi-secret Sharing Based on Lagrange Interpolating Polynomial. Security and Communication Networks, Vol. 6, No. 9, pages 1169-1175 2013.
+ Si Li, Shengai Jin, Jonathan Z.Sun, and Chaoyang Zhang. Parallel Implementation of GRAph Aligner (GRAAL) Algorithm for Network Alignment. In Proceedings of The 19th International Conference on Parallel and Distributed Processing Techniques and Applications (PDPTA’13), Las Vegas, USA, July, 2013.

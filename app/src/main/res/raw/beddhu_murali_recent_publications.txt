@@ -1,0 +1,3 @@
+S. Rogers and B. Murali, An iterative plane-fitting stereo matching approach using an area-based sweeping, Under review with CVIU, 2012.
+X. Huan, B. Murali and A. L. Ali, Image Restoration based on the fast marching method and block based sampling, Computer Vision And Image Understanding, 114(2010), pp. 847-856
+V. Nagarajan, N. Kaushik, B. Murali, C. Zhang, S. Lakhera, and Y. Deng, "A Fourier Transformation Based Method to Mine Peptide Space for Antimicrobial Activity," BMC Bioinformatics, 7(suppl 2):S2, Spetember 2006.

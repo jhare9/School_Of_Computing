@@ -1,0 +1,2 @@
+Bikramjit Banerjee, Jeremy Lyle and Landon Kraemer, "The complexity of multi-agent plan recognition", in the Journal of Autonomous Agents and Multi-Agent Systems, 29: 40-72, Springer 2015. DOI 10.1007/s10458-014-9248-2
+Landon Kraemer and Bikramjit Banerjee, "Reinforcement Learning of Informed Initial Policies for Decentralized Planning", in ACM Transactions on Autonomous and Adaptive Systems, Vol. 9, No. 4, Article 18, ACM Press, 2014. DOI:http://dx.doi.org/10.1145/2668130

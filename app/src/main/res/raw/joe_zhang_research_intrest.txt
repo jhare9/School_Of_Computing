@@ -1,0 +1,5 @@
+Data Mining
+Computational Biology and Bioinformatics
+Medical Image Processing and pattern recognition
+High Performance Computing
+Computational Analysis and Modeling

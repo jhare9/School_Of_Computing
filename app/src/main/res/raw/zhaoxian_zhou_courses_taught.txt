@@ -1,0 +1,3 @@
+CSS 211 Statistical Methods I
+EET 315 Communication Systems
+EET 412 Advanced Circuit Analalysis

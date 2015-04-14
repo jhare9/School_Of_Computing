@@ -1,0 +1,3 @@
+Zhaoxian Zhou, "Electromagnetics Education in Electronics Engineering Technology Curriculum," Journal of Applications and Practices in Engineering Education, No. !, Vol.2, pp. 23-29, Fall 2011
+Zhaoxian Zhou and J. Scott Tyo, "An adaptive Time-Domain Integral Equation Method For Transient Analysis of Wire Scatterer," IEEE Antennas Wireless Propagat. Lett., Vol.4, pp.147-150, 2005
+Z. X. Zhou, L. W. Li, T. S. Yeo, and M. S. Leong, "Cumulative distributions of rainfall rate and microwave attenuation in Singapore's tropical region", Radio Science, Vol. 35, No.3, pp. 751-756, May-June 2000
