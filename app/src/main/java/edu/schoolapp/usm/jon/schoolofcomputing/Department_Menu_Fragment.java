@@ -73,38 +73,138 @@ public class Department_Menu_Fragment extends Fragment {
                                 course_des.setArguments(bun);
                                 getFragmentManager().beginTransaction().replace(R.id.container,course_des).addToBackStack("course des").commit();
                                 break;
-                            case 4:
-                                // faculty
-                                instructor_list = new Instructor_List_Fragment();
-                                bun.putStringArray("instructor",getResources().getStringArray(R.array.csc_teachers));
-                                bun.putIntArray("image", new int[]{R.drawable.dia, R.drawable.banerjee, R.drawable.bond, R.drawable.chen, R.drawable.koh, R.drawable.murali,
-                                        R.drawable.anton, R.drawable.sun, R.drawable.sung,
-                                        R.drawable.wang, R.drawable.zheng, R.drawable.xu, R.drawable.zhang, R.drawable.zhou});
-                                bun.putString("department name","csc faculty");
-                                instructor_list.setArguments(bun);
-                                getFragmentManager().beginTransaction().replace(R.id.container,instructor_list).addToBackStack("instructor list").commit();
+                        }
+                        break;
+                    case "Information Technology":
+                        switch(position){
+                            case 0:
+                                getFragmentManager().beginTransaction().replace(R.id.container,MainActivity.PlaceholderFragment.newInstance(position)).commit();
+                                ab.setTitle(getString(R.string.app_name));
                                 break;
-                            case 5:
-                                // scholarships
-                                getFragmentManager().beginTransaction().replace(R.id.container,new Scholarship_Fragment()).addToBackStack("scholarships").commit();
+                            case 1:
+                                af = new About_Fragment();
+                                bun.putString("department name","Information Technology");
+                                bun.putStringArray("about section",new String[]{"Client-server networking"," wide-area networking","information security","cloud Security","operating system administrations"});
+
+                                bun.putString("header","Topics in Information Technology");
+                                bun.putString("footer","Andrew Sung CSC director Hattiesburg, Ms 39406-5106 601-266-6639");
+                                af.setArguments(bun);
+                                getFragmentManager().beginTransaction().replace(R.id.container,af).addToBackStack("about").commit();
                                 break;
-                            case 6:
-                                // how to apply
-                                getFragmentManager().beginTransaction().replace(R.id.container,new How_To_Apply_Fragment()).addToBackStack("how to apply").commit();
-                                break;
-                            case 7:
-                                //student organization
+                            case 2:
                                 swv = new simple_web_view();
-                                bun.putString("html","<img src='acm.jpg' height='"+MainActivity.height+" width='"+MainActivity.width+"'/>");
-                                bun.putString("department name","ACM");
+                                bun.putString("department name","Itc degree plan");
+                                bun.putString("html","<img src='info_degree_plan.png' height='"+MainActivity.height+" width='"+MainActivity.width+"'/>");
+                                bun.putInt("scale",250);
                                 swv.setArguments(bun);
-                                getFragmentManager().beginTransaction().replace(R.id.container,swv).addToBackStack("student org").commit();
+                                getFragmentManager().beginTransaction().replace(R.id.container,swv).addToBackStack("degree plan").commit();
                                 break;
-                            case 8:
-                                //facilities
-                                getFragmentManager().beginTransaction().replace(R.id.container,new Facilities_Fragment()).addToBackStack("facilities").commit();
+                            case 3:
+                                course_des = new Course_Des_Fragment();
+                                bun.putInt("text file",R.raw.information_techonolgy_course_des);
+                                bun.putString("department name","ITC course description");
+                                course_des.setArguments(bun);
+                                getFragmentManager().beginTransaction().replace(R.id.container,course_des).addToBackStack("course des").commit();
+                                break;
+                        }
+                        break;
+                    case "Information Technology(developer)":
+                        switch(position){
+                            case 0:
+                                getFragmentManager().beginTransaction().replace(R.id.container,MainActivity.PlaceholderFragment.newInstance(position)).commit();
+                                ab.setTitle(getString(R.string.app_name));
+                                break;
+                            case 1:
+                                af = new About_Fragment();
+                                bun.putString("department name","Information Technology(Developer)");
+                                bun.putStringArray("about section",new String[]{"Client-server networking","information security","Software Development","Algorithm Design and Analysis","cloud Security","operating system administrations"});
+                                bun.putString("header","Topics in Information Technology(Developer)");
+                                bun.putString("footer","Andrew Sung CSC director Hattiesburg, Ms 39406-5106 601-266-6639");
+                                af.setArguments(bun);
+                                getFragmentManager().beginTransaction().replace(R.id.container,af).addToBackStack("about").commit();
+                                break;
+                            case 2:
+                                swv = new simple_web_view();
+                                bun.putString("department name","Itc(dev) degree plan");
+                                bun.putString("html","<img src='dev_info_degree_plan.png' height='"+MainActivity.height+" width='"+MainActivity.width+"'/>");
+                                bun.putInt("scale",250);
+                                swv.setArguments(bun);
+                                getFragmentManager().beginTransaction().replace(R.id.container,swv).addToBackStack("degree plan").commit();
+                                break;
+                            case 3:
+                                course_des = new Course_Des_Fragment();
+                                bun.putInt("text file",R.raw.information_techonolgy_course_des);
+                                bun.putString("department name","Itc(dev) course description");
+                                course_des.setArguments(bun);
+                                getFragmentManager().beginTransaction().replace(R.id.container,course_des).addToBackStack("course des").commit();
                                 break;
 
+                        }
+                        break;
+                    case "Electrical Engineering":
+                        switch(position){
+                            case 0:
+                                getFragmentManager().beginTransaction().replace(R.id.container,MainActivity.PlaceholderFragment.newInstance(position)).commit();
+                                ab.setTitle(getString(R.string.app_name));
+                                break;
+                            case 1:
+                                af = new About_Fragment();
+                                bun.putString("department name","Electronics Engineering");
+                                bun.putStringArray("about section",new String[]{"analog circuits","digital circuits","embedded computers","traditional instrumentation"
+                                ,"virtual instrumentation","analog communications","digital communications","electrical power","audio/video","automation/control systems"});
+                                bun.putString("header","Topics in Electronic Engineering");
+                                bun.putString("footer","Andrew Sung CSC director Hattiesburg, Ms 39406-5106 601-266-6639");
+                                af.setArguments(bun);
+                                getFragmentManager().beginTransaction().replace(R.id.container,af).addToBackStack("about").commit();
+                                break;
+                            case 2:
+                                swv = new simple_web_view();
+                                bun.putString("department name","Ee degree plan");
+                                bun.putString("html","<img src='ee_degree_plan.png' height='"+MainActivity.height+" width='"+MainActivity.width+"'/>");
+                                bun.putInt("scale",250);
+                                swv.setArguments(bun);
+                                getFragmentManager().beginTransaction().replace(R.id.container,swv).addToBackStack("degree plan").commit();
+                                break;
+                            case 3:
+                                course_des = new Course_Des_Fragment();
+                                bun.putInt("text file",R.raw.electrical_engineering_cousre_des);
+                                bun.putString("department name","Electronic Engineering");
+                                course_des.setArguments(bun);
+                                getFragmentManager().beginTransaction().replace(R.id.container,course_des).addToBackStack("course des").commit();
+                                break;
+
+                        }
+                        break;
+                    case "Computer Engineering":
+                        switch(position){
+                            case 0:
+                                getFragmentManager().beginTransaction().replace(R.id.container,MainActivity.PlaceholderFragment.newInstance(position)).commit();
+                                ab.setTitle(getString(R.string.app_name));
+                               break;
+                            case 1:
+                                af = new About_Fragment();
+                                bun.putString("department name","Computer Engineering");
+                                bun.putStringArray("about section",new String[]{"analog and digital circuits","computers","microprocessors communications","microcontrollers","automation/control systems"});
+                                bun.putString("header","Topics in Computer Engineering");
+                                bun.putString("footer","Andrew Sung CSC director Hattiesburg, Ms 39406-5106 601-266-6639");
+                                af.setArguments(bun);
+                                getFragmentManager().beginTransaction().replace(R.id.container,af).addToBackStack("about").commit();
+                                break;
+                            case 2:
+                                swv = new simple_web_view();
+                                bun.putString("department name","Ce degree plan");
+                                bun.putString("html","<img src='ce_degree_plan.png' height='"+MainActivity.height+" width='"+MainActivity.width+"'/>");
+                                bun.putInt("scale",250);
+                                swv.setArguments(bun);
+                                getFragmentManager().beginTransaction().replace(R.id.container,swv).addToBackStack("degree plan").commit();
+                                break;
+                            case 3:
+                                course_des = new Course_Des_Fragment();
+                                bun.putInt("text file",R.raw.computer_engineering_course_des);
+                                bun.putString("department name","Computer Engineering");
+                                course_des.setArguments(bun);
+                                getFragmentManager().beginTransaction().replace(R.id.container,course_des).addToBackStack("course des").commit();
+                                break;
                         }
                         break;
                 }

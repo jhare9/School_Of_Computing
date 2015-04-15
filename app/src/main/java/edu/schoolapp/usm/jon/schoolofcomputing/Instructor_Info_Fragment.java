@@ -116,6 +116,56 @@ public class Instructor_Info_Fragment extends Fragment {
                 tv3.setText(fr.line_reader(getActivity(),R.raw.zhaoxian_zhou_recent_publications));
                 iv.setImageResource(R.drawable.zhou);
                 break;
+            case "Todd Adams":
+                tv1.setText(fr.line_reader(getActivity(),R.raw.todd_adams_courses_taught));
+                tv2.setText(fr.line_reader(getActivity(),R.raw.todd_adams_research_intrest));
+                tv3.setText(fr.line_reader(getActivity(),R.raw.todd_adams_recent_publications));
+                iv.setImageResource(R.drawable.todd_adams);
+                break;
+            case "Biju Bajracharya":
+                tv1.setText(fr.line_reader(getActivity(),R.raw.biju_course_taught));
+                tv2.setText(fr.line_reader(getActivity(),R.raw.biju_research_intrest));
+                tv3.setText(fr.line_reader(getActivity(),R.raw.biju_recent_publications));
+                iv.setImageResource(R.drawable.biju_bajracharya);
+                break;
+            case "Randy Buchanan":
+                tv1.setText(fr.line_reader(getActivity(),R.raw.randy_b_courses_taught));
+                tv2.setText(fr.line_reader(getActivity(),R.raw.randy_b_research_intrest));
+                tv3.setText(fr.line_reader(getActivity(),R.raw.randy_b_recent_publications));
+                iv.setImageResource(R.drawable.randy_buchanan);
+                break;
+            case "Amer Dawoud":
+                tv1.setText(fr.line_reader(getActivity(),R.raw.amer_d_courses_taught));
+                tv2.setText(fr.line_reader(getActivity(),R.raw.amer_d_research_intrest));
+                tv3.setText(fr.line_reader(getActivity(),R.raw.amer_d_recent_publications));
+                iv.setImageResource(R.drawable.amer_dawoud);
+                break;
+            case "Jeremy Graves":
+                tv1.setText(fr.line_reader(getActivity(),R.raw.jeremy_g_course_taught));
+                tv2.setText(fr.line_reader(getActivity(),R.raw.jeremy_g_research_intrest));
+                tv3.setText(fr.line_reader(getActivity(),R.raw.jeremy_g_recent_publications));
+                iv.setImageResource(R.drawable.jeremy_graves);
+                break;
+            case "Rick Hawkins":
+                tv1.setText(fr.line_reader(getActivity(),R.raw.rick_h_courses_taught));
+                tv2.setText(fr.line_reader(getActivity(),R.raw.rick_h_research_intrest));
+                tv3.setText(fr.line_reader(getActivity(),R.raw.rick_h_recent_publications));
+                iv.setImageResource(R.drawable.rick_hawkins);
+                break;
+            case "Kelly Robinson":
+                tv1.setText(fr.line_reader(getActivity(),R.raw.kelly_r_courses_taught));
+                tv2.setText(fr.line_reader(getActivity(),R.raw.kelly_r_research_intrest));
+                tv3.setText(fr.line_reader(getActivity(),R.raw.kelly_r_recent_publications));
+                iv.setImageResource(R.drawable.kelly_robinson);
+                break;
+            case "Connie White":
+                tv1.setText(fr.line_reader(getActivity(),R.raw.connie_w_courses_taught));
+                tv2.setText(fr.line_reader(getActivity(),R.raw.connie_w_research_intrest));
+                tv3.setText(fr.line_reader(getActivity(),R.raw.connie_w_recent_publications));
+                iv.setImageResource(R.drawable.connie_white);
+                break;
+
+
         }// add more instructor if needed.
 
         return view;

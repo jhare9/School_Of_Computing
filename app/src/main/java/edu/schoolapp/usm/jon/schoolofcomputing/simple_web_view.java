@@ -20,9 +20,16 @@ import android.widget.Toast;
 public class simple_web_view extends Fragment{
 
     private WebView webview;
+    private int scale;
 
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+
+        scale = 100;
+
+        if(getArguments().getInt("scale") > 0){
+            scale = getArguments().getInt("scale");
+        }
 
         ActionBarActivity abv = (ActionBarActivity) getActivity();
         android.support.v7.app.ActionBar ab = abv.getSupportActionBar();
@@ -33,7 +40,7 @@ public class simple_web_view extends Fragment{
         webview = (WebView) inflater.inflate(R.layout.simple_web_view,container,false);
         webview.loadDataWithBaseURL("file:///android_res/drawable/",getArguments().getString("html"), "text/html", "utf-8", null);
         webview.getSettings().setBuiltInZoomControls(true);
-        webview.setInitialScale(100);
+        webview.setInitialScale(scale);
         webview.setBackgroundColor(Color.BLACK);
         webview.getSettings().setNeedInitialFocus(true);
 

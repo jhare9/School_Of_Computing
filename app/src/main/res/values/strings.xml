@@ -13,17 +13,25 @@
     <string name="action_settings">Settings</string>
 
     <string-array name="csc_teachers">
+        <item>Todd Adams</item>
         <item>Dia Ali</item>
+        <item>Biju Bajracharya</item>
         <item >Bikramjit Banerjee</item>
         <item>Glenn Bond</item>
+        <item>Randy Buchanan</item>
         <item>Kuo Chen</item>
+        <item>Amer Dawoud</item>
+        <item>Jeremy Graves</item>
+        <item>Rick Hawkins</item>
         <item >Wonryull Koh</item>
         <item >Beddhu Murali</item>
         <item>Anton Netchaev</item>
+        <item>Kelly Robinson</item>
         <item>Jonathan Sun</item>
         <item >Andrew H. Sung</item>
         <item >Nan Wang</item>
         <item>Zheng Wang</item>
+        <item>Connie White</item>
         <item>Kebin Xu</item>
         <item>Chaoyang (Joe) Zhang</item>
         <item >Zhaoxian Zhou</item>

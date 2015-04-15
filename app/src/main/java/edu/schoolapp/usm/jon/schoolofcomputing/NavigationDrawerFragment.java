@@ -100,7 +100,7 @@ public class NavigationDrawerFragment extends Fragment {
 
             }
         });
-        mDrawerListView.setAdapter(new Custom_menu_Adpater(getActivity(),new String[]{"Home","Computer Science"}));
+        mDrawerListView.setAdapter(new Custom_menu_Adpater(getActivity(),new String[]{"Home","Computer Science","Information Technology","Information Technology(Developer)","Electronic Engineering","Computer Engineering","Faculty","Scholarships","Student Organization","Facilities","How To Apply"}));
         mDrawerListView.setItemChecked(mCurrentSelectedPosition, true);
         return mDrawerListView;
     }
