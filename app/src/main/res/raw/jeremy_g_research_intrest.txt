@@ -1,0 +1,3 @@
+Design, implementation and management of technologies in various business environments.
+Cyber security with emphasis on secure and efficient data handling techniques for business networks.
+Analysis and testing of existing cyber security systems available on the market.

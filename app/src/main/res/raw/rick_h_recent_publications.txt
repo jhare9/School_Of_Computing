@@ -1,0 +1,3 @@
+Combining Gain, Noise Figure, and Intercept Point for Cascaded Circuit Elements, RF Design, Vol. 13, No. 3, March, 1990.
+An Eigenvalue Solution of the Helmholtz Equation with Arbitrary Two-Dimensional Boundaries Using Finite Element Methods with Applications to Electromagnetic Waveguides, Masters Thesis, Department of Mathematical Sciences, University of Alabama in Huntsville, 1992.
+A Vector Boundary Element Method for Electromagnetic Fields with Application to Horn Antennae, Doctoral Dissertation, Department of Electrical and Computer Engineering, University of Alabama in Huntsville, 1992.

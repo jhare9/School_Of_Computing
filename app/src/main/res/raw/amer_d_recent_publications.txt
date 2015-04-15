@@ -1,0 +1,3 @@
+A. Dawoud "Segmentation of Dermoscopic Images by Fusion of Type-2 Fuzziness Measure in Graph Cuts Image Binarization," International Journal of Imaging and Robotics (accepted) , 2013.
+A. Dawoud, A. Netchaev, "Graph Cuts Based Binarization of Noisy Check Images," IET Image Processing, Vol.6, (2012) 1256-1261. [Impact Factor:0.895]
+A. Dawoud, A. Netchaev, "Fusion of Visual Cues of Intensity and Texture in Markov Random Fields Image," IET Computer Vision, Vol.6, (2012) 603-609. [Impact Factor:0.636]

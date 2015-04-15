@@ -1,0 +1,6 @@
+CSC 492 Comp Sci Prob I
+EET 101 Intro Electronics
+EET 230 Elect Instr
+EET 396 Eng Lab Internship
+EET 400 Senior Project I
+EET 401 Senior Project II

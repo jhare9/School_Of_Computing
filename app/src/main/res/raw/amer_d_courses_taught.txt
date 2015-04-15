@@ -1,0 +1,3 @@
+CET 420 Embed Uc Design
+CET 472 Adv Prog Logic
+CET 492 Special Problems

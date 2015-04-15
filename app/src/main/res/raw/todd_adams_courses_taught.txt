@@ -1,0 +1,4 @@
+CET 301 Logic Circuit Des
+CET 400 Senior Project
+CET 401 Senior Project
+EET 311 App Devices I
